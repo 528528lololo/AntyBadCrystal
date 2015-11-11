@@ -299,6 +299,7 @@ namespace AntiBadPixels {
 			// 
 			// pictureBox3
 			// 
+			this->pictureBox3->Cursor = System::Windows::Forms::Cursors::Hand;
 			this->pictureBox3->Image = (cli::safe_cast<System::Drawing::Image^  >(resources->GetObject(L"pictureBox3.Image")));
 			this->pictureBox3->Location = System::Drawing::Point(167, 200);
 			this->pictureBox3->Name = L"pictureBox3";
